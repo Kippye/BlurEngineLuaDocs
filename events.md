@@ -26,9 +26,11 @@ This event is called every time the mouse is moved on the screen.
 
 *Parameters: **BUTTON** key, **BUTTON_ACTION** action, **int** mods*
 
-Action is used to tell if the button was released, or pressed.
-
 Key is the BUTTON enum which you can read about here (TODO: LINK)
+
+Action is used to tell if the button was pressed, released, or held.
+
+The mods parameter indicates whether keys like SHIFT or CTRL were also being pressed.
 
 This event is called every time a button on the mouse is pressed.
 
@@ -44,11 +46,11 @@ This event is called every time a scroll wheel is scrolled.
 
 ### passiveInput
 
-*Parameters: **BUTTON** key, **BUTTON_ACTION** action*
+*Parameters: **KEY** key, **BUTTON_ACTION** action*
 
 Action is used to tell if the button was released, or pressed.
 
-Key is the BUTTON enum which you can read about here (TODO: LINK)
+Key is the KEY enum which you can read about here (TODO: LINK)
 
 This event is obviously called every time a button is pressed.
 

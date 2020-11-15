@@ -6,7 +6,7 @@
 
 *Parameters: **string** filePath*
 
-Loads a script and executes it
+Loads the script from *scripts / filePath* and executes it
 
 
 
@@ -16,4 +16,4 @@ Loads a script and executes it
 
 *Returns: **Texture** texture*
 
-Loads a texture, and then returns it.
+Loads a texture from *content / filePath*, and then returns it.
