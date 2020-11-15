@@ -12,7 +12,7 @@ Calls *eventName* with *arguments*.
 
 ## event.link
 
-*Parameters: **string** eventName, **function** function*
+*Parameters: **string** eventName, **string** uniqueIdentifier, **function** function*
 
 Links *function* to the *eventName* given in the event system.
 

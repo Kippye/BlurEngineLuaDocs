@@ -30,7 +30,7 @@ Creates and returns a new **GUI** of *type*.
 
 *Parameters: **string** type*
 
-Returns: **GUIObject** guiObject
+*Returns: **GUIObject** guiObject*
 
 Creates and returns a new **GUIObject** of *type*.
 
