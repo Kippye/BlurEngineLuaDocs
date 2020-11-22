@@ -113,17 +113,17 @@ Player functions affect only the player tile, which, for some reason, is treated
 
 ### setEngineMovementState
 
-*Parameters: ***bool** movementState*
+*Parameters: **bool** movementState*
 
-Enablesor disables the engine's pre-existing top-down movement.
+Enables or disables the engine's pre-existing top-down movement.
 
 ### getPlayerMovementDirection
 
-*Returns: ***Vector** playerMovementDirection*
+*Returns: **Vector** playerMovementDirection*
 
 ### setPlayerCollisions
 
-*Parameters: ***bool** collide*
+*Parameters: **bool** collide*
 
 Enables or disables the player tile's collider.
 
