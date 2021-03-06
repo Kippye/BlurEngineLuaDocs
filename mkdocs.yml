@@ -1,0 +1,19 @@
+site_name: BlurEngine
+use_directory_urls: false
+plugins:
+    - search
+    - localsearch
+nav:
+    - "Introduction": index.md
+    - "General Reference":
+        - "Events": events.md
+        - "Global Functions": functions.md
+        - "Libraries": libraries/libraries.md
+    - "Guides":
+        - "Nothing here yet"
+    - "Contribute to this wiki": "https://github.com/Functionable/BlurEngineLuaDocs"
+theme:
+    name: material
+    icon:
+        logo: images/logo
+    custom_dir: theme
